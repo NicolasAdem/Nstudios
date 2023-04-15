@@ -22,7 +22,6 @@
   display: flex;
   position: fixed;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  animation: wavein 2s ease;
 }
 
 .topnav .logo {
@@ -1634,16 +1633,5 @@ footer .container .column .social-links i:hover {
   }
   100% {
     transform: translateY(0px);
-  }
-}
-@keyframes wavein {
-  0% {
-    margin-left: -1000px;
-  }
-  20% {
-    margin-left: -900px;
-  }
-  100% {
-    margin-left: 0px;
   }
 }
