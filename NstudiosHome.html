@@ -337,67 +337,13 @@
     </div>
 </footer>
 
-<script>
-function Responsive() {
-  var x = document.getElementById("myTopnav");
-  if (x.className == "topnav") {
-    x.className += "responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+<script src="responsiveFunction.js">
+</script>
+
+<script src="changeMainText.js">
 </script>
 
 <script>
-    content = document.getElementById('changing-content');
-    checkbox = document.getElementById('checkbox')
-    var change = setInterval (changeContent, 2000);
-
-    function changeContent() {
-        if (content.innerHTML == 'Search') {
-            content.innerHTML = 'Choose';
-            content.style.animation = 'TextAnimationTwo 1s ease 1'
-        }
-        else if (content.innerHTML == 'Choose') {
-            content.innerHTML = 'Store';
-            content.style.animation = 'TextAnimationOne 1s ease 1'
-        }
-        else if (content.innerHTML == 'Store') {
-            content.innerHTML = 'Edit';
-            content.style.animation = 'TextAnimationTwo 1s ease 1'
-        }
-        else if (content.innerHTML == 'Edit') {
-            content.innerHTML = 'Share';
-            content.style.animation = 'TextAnimationOne 1s ease 1'
-        }
-        else if (content.innerHTML == 'Share') {
-            clearInterval(change);
-        }
-}
-</script>
-
-<script>
-</script>
-
-<script>
-    var swiper = new Swiper(".swiper", {
-      /*slidesPerView: 1,
-      spaceBetween: 30,
-      loop: false,*/
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-    
-</script>
-
-<script src="swiper-bundle.min.js">
-
 </script>
 
 </body>
