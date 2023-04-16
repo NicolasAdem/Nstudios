@@ -180,46 +180,31 @@ img {
 }
 
 .contentthree {
-  height: 500px;
+  height: 350px;
   color: white;
   padding-top: 20px;
   background-color: rgba(0, 0, 0, 0.6);
-}
-
-.contentthree img {
-  width: 50%;
-  z-index: 100;
-  height: 80%;
-  display: block;
-  text-align: right;
-  position: relative;
-  opacity: 1;
-  display: inline;
-  margin-top: 40px;
-  margin-left: 20px;
 }
 
 .contentthree .subtitle {
   font-weight: 800;
   font-size: 20px;
   color: #891900;
+  margin: auto;
 }
 
 .contentthree .contentthreeTitle {
-  font-size: 35px;
-  display: inline;
-  float: left;
-  margin-right: 15%;
-  margin-left: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
   margin-top: 3%;
 }
 
 .contentthree .description {
-  float: left;
-  margin-top: -280px;
-  margin-right: 50px;
-  margin-left: 20px;
-  width: 35%;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
   font-size: 18px;
 }
 
@@ -1253,41 +1238,6 @@ footer .container .column .social-links i:hover {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 720px) {
-  .contentthree img {
-    display: block;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-  }
-  .contentthree {
-    height: 700px;
-  }
-  .contentthree .description {
-    margin-top: 40px;
-    float: left;
-    margin-left: 20px;
-    width: 80%;
-  }
-  .contentthree .contentthreeTitle {
-    text-align: center;
-    float: left;
-    display: block;
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-}
-@media (max-width: 530px) {
-  .contentthree img {
-    width: 80%;
-    height: 40%;
-  }
-}
-@media (max-width: 430px) {
-  .contentthree img {
-    height: 25%;
-  }
-}
 @media (max-width: 326px) {
   footer .container .column {
     width: 100%;
@@ -1350,6 +1300,11 @@ footer .container .column .social-links i:hover {
   }
   .contenteight .column .description {
     margin: 15px;
+  }
+}
+@media (max-width: 390px) {
+  .contenteight {
+    height: 2000px;
   }
 }
 @media (max-width: 324px) {
@@ -1470,12 +1425,47 @@ footer .container .column .social-links i:hover {
     margin-top: 300px;
   }
 }
+
+@media (width: 390px) {
+  .contenttwo .ourservices a img {
+    max-height: 200px;
+  }
+}
+
+@media (width: 393px) {
+  .contenttwo .ourservices a img {
+    max-height: 200px;
+  }
+}
+@media (width: 360px) {
+  .contenttwo .ourservices a img {
+    max-height: 200px;
+  }
+}
+@media (width: 412px) {
+  .contenttwo .ourservices a img {
+    max-height: 200px;
+  }
+}
+
+@media (width: 540px) {
+  .contenttwo .ourservices .description {
+    margin-top: 350px;
+  }
+}
+
+@media (width: 414px) {
+  .contenttwo .ourservices a img {
+    height: 280px;
+  }
+}
+
 @media (max-width: 400px) {
   .contenttwo .ourservices a img {
     height: 35%;
   }
   .contenttwo .ourservices .description {
-    margin-top: 230px;
+    margin-top: 250px;
   }
   .contenttwo .ourservices {
     margin-top: 350px;
